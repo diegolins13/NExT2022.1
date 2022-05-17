@@ -4,7 +4,8 @@
 Exercício 1: Uma loja que vende CD e DVDS deseja construir um
 cadastro com dos seus produtos. Para tanto, foi elaborado o diagrama
 de classes dado na figura abaixo.
-![img](.github/images/diagrama_heranca.png)
+![diagrama_heranca](https://user-images.githubusercontent.com/83435452/168720093-4f21f3f4-a429-4e34-b597-5aa1ab97284f.png)
+
 
 A tabela abaixo fornece uma descrição dos métodos que deverão ser
 elaborados para cada uma das classes.
