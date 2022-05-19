@@ -48,7 +48,7 @@ public class Midia {
 	}
 	
 	public String getDetalhes() {
-		return "Informações: "
+		return "InformaÃ§Ãµes: "
 				+ ", " + this.codigo
 				+ ", " + this.preco
 				+ ", " + this.nome;
@@ -62,7 +62,7 @@ public class Midia {
 	public void inserirDados() {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Digite o código: ");
+		System.out.print("Digite o cÃ³digo: ");
 		this.codigo = sc.nextInt();
 		System.out.print("Digite o preco: ");
 		this.preco = sc.nextDouble();
