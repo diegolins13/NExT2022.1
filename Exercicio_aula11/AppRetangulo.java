@@ -20,8 +20,8 @@ public class AppRetangulo {
 		
 		System.out.println("");
 		System.out.println("---------RESULTADO--------");
-		System.out.printf("A área é %.2f%n", ret.calcularArea());
-		System.out.printf("O perímetro é %.2f%n", ret.calcularPerimetro());		
+		System.out.printf("A Ã¡rea Ã© %.2f%n", ret.calcularArea());
+		System.out.printf("O perÃ­metro Ã© %.2f%n", ret.calcularPerimetro());		
 		
 		sc.close();
 	}
