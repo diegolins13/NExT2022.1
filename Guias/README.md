@@ -7,6 +7,8 @@
 
 <b>Adicionar um item na lista na segunda posição: </b>	`list.add(2, "Joana");`
 
+<b>Encontrar posição de elemento: </b> `indexOf(obj): , lastIndexOf(obj);`
+
 <b>Exibir tamanho da lista: </b>	`System.out.println(list.size());`
 		
 <b>Percorrer toda a lista: </b> `for(String x : list) { }`
@@ -27,3 +29,6 @@
 <b>Imprimir o primeiro item que começa com a letra A: </b> <br>
 `String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);` <br>
 `System.out.println(name);`
+
+<b>Encontrar primeira ocorrência com base em predicado: </b>
+`Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);`
