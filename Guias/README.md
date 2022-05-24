@@ -30,5 +30,6 @@
 `String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);` <br>
 `System.out.println(name);`
 
-<b>Encontrar primeira ocorrência com base em predicado: </b>
-`Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);`
+<b>Encontrar primeira ocorrência com base em predicado: </b> <br>
+`Integer result = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);`<br>
+<b><i>Obs.:</b> Caso não seja encontra algum item que comece com a letra informada no código, ele retornará Null.</i>
